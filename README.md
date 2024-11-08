@@ -18,11 +18,11 @@ Master Thesis Project - Reverse Proxy
 - Configurable containerized form
 - Auto-discovery
 - Circuit breaker
+- Append TraceID to every request
 
 ## Optional Functionalities
 - Encryption
 - CLI for configuration
-- Different network support
+- Different network protocols support
 - Observability with Prometheus + Grafana
-- Tracer
 
