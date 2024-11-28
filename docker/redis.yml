@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+
+  e-redis:
+    container_name: e-redis
+    image: redis:latest
+    restart: always
+    entrypoint: redis-server --appendonly yes --requirepass supersafepass! --maxmemory 512mb --maxmemory-policy allkeys-lru
+    networks:
+      - default
+    ports:
+      - "6379:6379"
+    volumes:
+      - e-redis:/data
+
+volumes:
+  e-redis:

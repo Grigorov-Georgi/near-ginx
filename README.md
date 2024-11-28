@@ -11,7 +11,7 @@ Master Thesis Project - Reverse Proxy
 - Blacklisting
 - Load Balancing
 - Routing
-- Rate Limiting
+- Rate Limiting -> Redis + Filter
 - Bandwidth limiting
 - Caching
 - Secured Information API
